@@ -58,7 +58,7 @@ while (<$fh>) {
     next;
   }
   if ($line =~ /^#/) {
-    print "$line\n";
+    print "$line\n" if ($verbose);
     next;
   }
   my ($CHROM,$POS,$ID,$REF,$ALT,$QUAL,$FILTER,$INFO) = split("\t",$line);
