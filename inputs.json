@@ -1,0 +1,11 @@
+# inputs.json
+{
+  "helloHaplotypeCaller.haplotypeCaller.GATK": "/path/to/gatk/",
+  "helloHaplotypeCaller.haplotypeCaller.RefFasta": "../fasta",
+  "helloHaplotypeCaller.haplotypeCaller.RefIndex": "../ref",
+  "helloHaplotypeCaller.haplotypeCaller.RefDict": "../refdict",
+  "helloHaplotypeCaller.haplotypeCaller.sampleName": "TestSample",
+  "helloHaplotypeCaller.haplotypeCaller.inputBAM": "/path/inputbam",
+  "helloHaplotypeCaller.haplotypeCaller.bamIndex": "/path/inputbam.index",
+  "helloHaplotypeCaller.haplotypeCaller.docker_WGS": "DockerImage"
+}
