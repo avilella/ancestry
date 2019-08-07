@@ -1,8 +1,9 @@
 {
-  "iadmix.runancestry.RUNANCESTRY": "$HOME/ancestry/runancestry.py",
+  "iadmix.runancestry.RUNANCESTRY": "/home/ec2-user/ancestry/runancestry.py",
   "iadmix.runancestry.sampleName": "TestSample",
   "iadmix.runancestry.minmq": "20",
+  "iadmix.runancestry.pathancestry": "/home/ec2-user/ancestry",
   "iadmix.runancestry.inputBAM": "/home/ec2-user/data/epi/1/sample.hg38_merged.deduplicated.bsc.sorted.bam",
   "iadmix.runancestry.freqsfile": "/home/ec2-user/HGDP/hgdp_wgs.20190516.karyo.53pop.freqs",
-  "iadmix.runancestry.docker_WGS": "DockerImage"
+  "iadmix.runancestry.docker_WGS": "iadmix"
 }
