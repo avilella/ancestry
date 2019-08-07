@@ -1,11 +1,8 @@
-# inputs.json
 {
-  "helloHaplotypeCaller.haplotypeCaller.GATK": "/path/to/gatk/",
-  "helloHaplotypeCaller.haplotypeCaller.RefFasta": "../fasta",
-  "helloHaplotypeCaller.haplotypeCaller.RefIndex": "../ref",
-  "helloHaplotypeCaller.haplotypeCaller.RefDict": "../refdict",
-  "helloHaplotypeCaller.haplotypeCaller.sampleName": "TestSample",
-  "helloHaplotypeCaller.haplotypeCaller.inputBAM": "/path/inputbam",
-  "helloHaplotypeCaller.haplotypeCaller.bamIndex": "/path/inputbam.index",
-  "helloHaplotypeCaller.haplotypeCaller.docker_WGS": "DockerImage"
+  "iadmix.runancestry.RUNANCESTRY": "$HOME/ancestry/runancestry.py",
+  "iadmix.runancestry.sampleName": "TestSample",
+  "iadmix.runancestry.minmq": "20",
+  "iadmix.runancestry.inputBAM": "/home/ec2-user/data/epi/1/sample.hg38_merged.deduplicated.bsc.sorted.bam",
+  "iadmix.runancestry.freqsfile": "/home/ec2-user/HGDP/hgdp_wgs.20190516.karyo.53pop.freqs",
+  "iadmix.runancestry.docker_WGS": "DockerImage"
 }
