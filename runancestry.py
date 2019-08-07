@@ -275,7 +275,7 @@ parser.add_option("-p","--poolsize",dest="POOLSIZE",type="int",help="pool size f
 parser.add_option("--pr","--parsimony",dest="pr",type="int",help="parsimonious ancestry estimation 0/1, default = 1",default=1);
 parser.add_option("--hwe","--HWE",dest="HWE",type="int",help="HWE deviation estimation 0/1, default = 0",default=0);
 parser.add_option("--strand",dest="include_strand_ambiguous",type="int",help="<0/1> include SNPs that are strand ambiguous (A/T, C/G): default = 0 (not included)",default=0);
-parser.add_option("--path",dest="path",type="string",help="path to directory with executables ANCESTRY and calculateGLL",default=".");
+parser.add_option("--path",dest="path",type="string",help="path to directory with executables ANCESTRY and calculateGLL",default="");
 parser.add_option("-c","--cores",dest="CORES",type="int",help="number of cores for processing in parallel",default=1);
 parser.add_option("-m","--modcore",dest="MOD_CORE",type="int",help="0/1/2/3..../CORES-1",default=0);
 parser.add_option("-w","--windows",dest="WINDOW",type="int",help="0/1",default=0);
